@@ -20,7 +20,12 @@ Analogously to our MNIST challenge, the goal of this challenge is to clarify the
 
 | Attack                                 | Submitted by  | Accuracy | Submission Date |
 | -------------------------------------- | ------------- | -------- | ---- |
-| PGD on the cross-entropy loss for the<br> naturally trained public network     | (initial entry)       | **47.32%**   | Jul 11, 2017    |
+| PGD on the cross-entropy loss for the<br> adversarially trained public network     | (initial entry)       | **63.39%**   | Jul 12, 2017    |
+| PGD on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | **64.38%**   | Jul 12, 2017    |
+| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | **67.25%**   | Jul 12, 2017    |
+| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> naturally trained public network     | (initial entry)       | **85.23%**   | Jul 12, 2017    |
+
+
 
 
 
@@ -153,7 +158,7 @@ and use the `config.json` file to set `"model_dir": "models/adv_trained"`.
 ```
 python fetch_model.py natural
 ```
-and use the `config.json` file to set `"model_dir": "models/natural"`.
+and use the `config.json` file to set `"model_dir": "models/naturally_trained"`.
 #### Test the network
 * Create an attack file by running
 ```
