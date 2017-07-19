@@ -1,7 +1,9 @@
 # CIFAR10 Adversarial Examples Challenge
 
 Recently, there has been much progress on adversarial *attacks* against neural networks, such as the [cleverhans](https://github.com/tensorflow/cleverhans) library and the code by [Carlini and Wagner](https://github.com/carlini/nn_robust_attacks).
-We now complement these advances by proposing an *attack challenge* for the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) which follows the format of [our earlier MNIST challenge](https://github.com/MadryProj/mnist_challenge).
+We now complement these advances by proposing an *attack challenge* for the
+[CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) which follows the
+format of [our earlier MNIST challenge](https://github.com/MadryLab/mnist_challenge).
 We have trained a robust network, and the objective is to find a set of adversarial examples on which this network achieves only a low accuracy.
 To train an adversarially-robust network, we followed the approach from our recent paper:
 
@@ -21,9 +23,9 @@ Analogously to our MNIST challenge, the goal of this challenge is to clarify the
 | Attack                                 | Submitted by  | Accuracy | Submission Date |
 | -------------------------------------- | ------------- | -------- | ---- |
 | PGD on the cross-entropy loss for the<br> adversarially trained public network     | (initial entry)       | **63.39%**   | Jul 12, 2017    |
-| PGD on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | **64.38%**   | Jul 12, 2017    |
-| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | **67.25%**   | Jul 12, 2017    |
-| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> naturally trained public network     | (initial entry)       | **85.23%**   | Jul 12, 2017    |
+| PGD on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | 64.38%   | Jul 12, 2017    |
+| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> adversarially trained public network     | (initial entry)       | 67.25%   | Jul 12, 2017    |
+| FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss for the<br> naturally trained public network     | (initial entry)       | 85.23%   | Jul 12, 2017    |
 
 
 
