@@ -11,7 +11,7 @@
   "max_num_training_steps": 80000,
   "num_output_steps": 100,
   "num_summary_steps": 100,
-  "num_checkpoint_steps": 10000,
+  "num_checkpoint_steps": 1000,
   "training_batch_size": 128,
   "step_size_schedule": [[0, 0.1], [40000, 0.01], [60000, 0.001]],
   "weight_decay": 0.0002,
