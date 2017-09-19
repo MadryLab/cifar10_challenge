@@ -52,7 +52,7 @@ The `sha256()` digest of our model file is:
 ```
 555be6e892372599380c9da5d5f9802f9cbd098be8a47d24d96937a002305fd4
 ```
-We will release the corresponding model file on September 15 2017, which is roughly two months after the start of this competition.
+We will release the corresponding model file on September 15 2017, which is roughly two months after the start of this competition. **Edit: We are extending the deadline for submitting attacks to October 15th!**
 
 ### The Attack Model
 
