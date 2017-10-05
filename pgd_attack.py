@@ -32,7 +32,7 @@ class LinfPGDAttack:
                               off_value=0.0,
                               dtype=tf.float32)
       correct_logit = tf.reduce_sum(label_mask * model.pre_softmax, axis=1)
-      wrong_logit = tf.reduce_max((1-label_mask) * model.pre_softmax, axis=1)
+      wrong_logit = tf.reduce_max((1-label_mask) * model.pre_softmax - 1e4*label_mask, axis=1)
       loss = -tf.nn.relu(correct_logit - wrong_logit + 50)
     else:
       print('Unknown loss function. Defaulting to cross-entropy')
