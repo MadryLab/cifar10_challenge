@@ -43,7 +43,7 @@ As a reference point, we have seeded the leaderboard with the results of some st
 
 ### The CIFAR10 Model
 
-We used the code published in this repository to produce an adversarially robust model for CIFAR10 classification. The model is a residual convolutional neural network consisting of five residual units and a fully connected layer. This architecture is derived from the "w28-10 wide" variant of the [Tensorflow model repository](https://github.com/tensorflow/models/blob/master/resnet/resnet_model.py).
+We used the code published in this repository to produce an adversarially robust model for CIFAR10 classification. The model is a residual convolutional neural network consisting of five residual units and a fully connected layer. This architecture is derived from the "w32-10 wide" variant of the [Tensorflow model repository](https://github.com/tensorflow/models/blob/master/resnet/resnet_model.py).
 The network was trained against an iterative adversary that is allowed to perturb each pixel by at most `epsilon=8.0`.
 
 The random seed used for training and the trained network weights will be kept secret.
