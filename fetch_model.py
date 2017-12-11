@@ -8,16 +8,20 @@ import sys
 import zipfile
 import hashlib
 
-if len(sys.argv) == 1 or sys.argv[1] not in ['natural', 'adv_trained']:
+if len(sys.argv) == 1 or sys.argv[1] not in ['natural',
+                                             'adv_trained',
+                                             'secret']:
   print('Usage: python fetch_model.py [natural, adv_trained]')
   sys.exit(1)
 
 if sys.argv[1] == 'natural':
-  url = 'https://www.dropbox.com/s/anh93ggeh9xtsnr/nat_trained.zip?dl=1'
-else: # fetch adv_trained model
-  url = 'https://www.dropbox.com/s/9z7tnleh2hrf158/adv_trained.zip?dl=1'
+  url = 'https://www.dropbox.com/s/cgzd5odqoojvxzk/natural.zip?dl=1'
+elif sys.argv[1] == 'adv_trained':
+  url = 'https://www.dropbox.com/s/g4b6ntrp8zrudbz/adv_trained.zip?dl=1'
+else: # fetch secret model
+  url = 'https://www.dropbox.com/s/ywc0hg8lr5ba8zd/secret.zip?dl=1'
 
-fname = url.split('/')[-1]  # get the name of the file
+fname = url.split('/')[-1].split('?')[0]  # get the name of the file
 
 # model download
 print('Downloading models')
