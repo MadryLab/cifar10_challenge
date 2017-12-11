@@ -17,7 +17,7 @@ We will maintain a leaderboard of the best attacks for the next two months and t
 
 Analogously to our MNIST challenge, the goal of this challenge is to clarify the state-of-the-art for adversarial robustness on CIFAR10. Moreover, we hope that future work on defense mechanisms will adopt a similar challenge format in order to improve reproducibility and empirical comparisons.
 
-**Update 2017-12-10**: We released our secret model. You can download it by running `python fetch_model.py secret`. As of Dec 10th we are no longer accepting challenge submissions. We have set up a leaderboard for white-box attacks on the (now released) secret model. The submission format is the same as before. We plan to continue evaluating submissions and maintaining the leaderboard for the foreseeable future.
+**Update 2017-12-10**: We released our secret model. You can download it by running `python fetch_model.py secret`. As of Dec 10 we are no longer accepting black-box challenge submissions. We have set up a leaderboard for white-box attacks on the (now released) secret model. The submission format is the same as before. We plan to continue evaluating submissions and maintaining the leaderboard for the foreseeable future.
 
 ## Black-Box Leaderboard (Original Challenge)
 
