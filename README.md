@@ -33,6 +33,7 @@ Analogously to our MNIST challenge, the goal of this challenge is to clarify the
 | Attack                                 | Submitted by  | Accuracy | Submission Date |
 | -------------------------------------- | ------------- | -------- | ---- |
 | [Distributionally Adversarial Attack](https://github.com/tianzheng4/Distributionally-Adversarial-Attack) | Tianhang Zheng       | **44.71%**   | Aug 21, 2018    |
+| 20-step PGD on the cross-entropy loss<br> with 10 random restarts | Tianhang Zheng       | 45.21%   | Aug 24, 2018    |
 | 20-step PGD on the cross-entropy loss | (initial entry)       | 47.04%   | Dec 10, 2017    |
 | 20-step PGD on the [CW](https://github.com/carlini/nn_robust_attacks) loss | (initial entry)       | 47.76%   | Dec 10, 2017    |
 | FGSM on the [CW](https://github.com/carlini/nn_robust_attacks) loss | (initial entry)       | 54.92%   | Dec 10, 2017    |
