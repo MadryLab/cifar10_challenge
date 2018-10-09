@@ -139,7 +139,7 @@ class DataSubset(object):
         batch_end = self.batch_start + batch_size
         batch_xs = self.xs[self.cur_order[self.batch_start : batch_end], ...]
         batch_ys = self.ys[self.cur_order[self.batch_start : batch_end], ...]
-        self.batch_start += actual_batch_size
+        self.batch_start += batch_size
         return batch_xs, batch_ys
 
 
