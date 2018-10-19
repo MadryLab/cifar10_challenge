@@ -45,6 +45,7 @@ class LinfPGDAttack:
        examples within epsilon of x_nat in l_infinity norm."""
     if self.rand:
       x = x_nat + np.random.uniform(-self.epsilon, self.epsilon, x_nat.shape)
+      x = np.clip(x, 0, 255) # ensure valid pixel range
     else:
       x = np.copy(x_nat)
 
