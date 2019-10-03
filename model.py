@@ -47,10 +47,8 @@ class Model(object):
     activate_before_residual = [True, False, False]
     res_func = self._residual
 
-    # Uncomment the following codes to use w28-10 wide residual network.
-    # It is more memory efficient than very deep residual network and has
-    # comparably good performance.
-    # https://arxiv.org/pdf/1605.07146v1.pdf
+    # w28-10 wide residual network (https://arxiv.org/abs/1605.07146v1)
+    # use filters = [16, 16, 32, 64] for a non-wide version
     filters = [16, 160, 320, 640]
 
 
