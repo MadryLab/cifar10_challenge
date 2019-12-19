@@ -47,7 +47,7 @@ class LinfPGDAttack:
       x = x_nat + np.random.uniform(-self.epsilon, self.epsilon, x_nat.shape)
       x = np.clip(x, 0, 255) # ensure valid pixel range
     else:
-      x = np.copy(x_nat)
+      x = x_nat.astype(np.float)
 
     for i in range(self.num_steps):
       grad = sess.run(self.grad, feed_dict={self.model.x_input: x,
