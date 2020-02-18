@@ -32,7 +32,8 @@ Analogously to our MNIST challenge, the goal of this challenge is to clarify the
 
 | Attack                                 | Submitted by  | Accuracy | Submission Date |
 | -------------------------------------- | ------------- | -------- | ---- |
-| [MultiTargeted](https://arxiv.org/abs/1910.09338) | Sven Gowal | **44.03%**   | Aug 28, 2019    |
+| PGD attack with Output Diversified Initialization | Yusuke Tashiro | **43.99%**   | Feb 15, 2020    |
+| [MultiTargeted](https://arxiv.org/abs/1910.09338) | Sven Gowal | 44.03%   | Aug 28, 2019    |
 | [FAB: Fast Adaptive Boundary Attack](https://github.com/fra31/fab-attack) | Francesco Croce       | 44.51%   | Jun 7, 2019    |
 | [Distributionally Adversarial Attack](https://github.com/tianzheng4/Distributionally-Adversarial-Attack) | Tianhang Zheng       | 44.71%   | Aug 21, 2018    |
 | 20-step PGD on the cross-entropy loss<br> with 10 random restarts | Tianhang Zheng       | 45.21%   | Aug 24, 2018    |
