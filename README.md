@@ -32,7 +32,7 @@ Analogously to our MNIST challenge, the goal of this challenge is to clarify the
 
 | Attack                                 | Submitted by  | Accuracy | Submission Date |
 | -------------------------------------- | ------------- | -------- | ---- |
-| ELFDI-PGD | Siyuan Yi | **43.95%**   | Aug 2, 2021    |
+| Guided Local Attack | Siyuan Yi | **43.95%**   | Aug 2, 2021    |
 | [EWR-PGD](https://github.com/liuye6666/EWR-PGD) | Ye Liu | 43.96%   | Sep 8, 2020    |
 | [PGD attack with Output Diversified Initialization](https://arxiv.org/abs/2003.06878) | Yusuke Tashiro | 43.99%   | Feb 15, 2020    |
 | [MultiTargeted](https://arxiv.org/abs/1910.09338) | Sven Gowal | 44.03%   | Aug 28, 2019    |
